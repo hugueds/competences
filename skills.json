@@ -1,41 +1,58 @@
 {
-    "plc": [
-        {
-            "redesIndustriais": [
-                {
-                    "ethernet": {
-                        "weight": 1,
-                        "description": "",
-                        "levels": "",
-                        "links": [ { "url": ""}, { "text": ""}]
-                    }
-                }
-            ]
-        },
-        {
-            "tiaPortalProgramacao": [
-                {
-                    "stl": {
-                        "description": "",
-                        "levels": "",
-                        "links": [ { "url": ""}, { "text": ""}]
-                    }
-                }
-            ]
-        },
-        {
-            "db": [
-                {
-                    "stl": {
-                        "description": "",
-                        "levels": "",
-                        "links": [ { "url": ""}, { "text": ""}]
-                    }
-                }
-            ]
-        }
-    ],
-    "supervisorio": [
-
-    ]
+    "ethernet": {
+        "name": "Ethernet",
+        "weight": 1,
+        "description": "",
+        "levels": "",
+        "links": [
+            {
+                "url": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "openProtocol": {
+        "name": "Open Protocol",
+        "weight": 1,
+        "description": "",
+        "levels": "",
+        "links": [
+            {
+                "url": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "modbus": {
+        "name": "",
+        "weight": 2,
+        "description": "Modbus",
+        "levels": "",
+        "links": [
+            {
+                "url": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "opcua": {
+        "name": "OPC UA",
+        "weigth": 2,
+        "description": "OPC UA",
+        "levels": "",
+        "links": [
+            {
+                "url": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    }
 }
