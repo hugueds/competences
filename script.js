@@ -1,0 +1,8 @@
+function getSkill(){
+
+}
+
+function render() {
+
+}
+

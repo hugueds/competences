@@ -1,0 +1,41 @@
+{
+    "plc": [
+        {
+            "redesIndustriais": [
+                {
+                    "ethernet": {
+                        "weight": 1,
+                        "description": "",
+                        "levels": "",
+                        "links": [ { "url": ""}, { "text": ""}]
+                    }
+                }
+            ]
+        },
+        {
+            "tiaPortalProgramacao": [
+                {
+                    "stl": {
+                        "description": "",
+                        "levels": "",
+                        "links": [ { "url": ""}, { "text": ""}]
+                    }
+                }
+            ]
+        },
+        {
+            "db": [
+                {
+                    "stl": {
+                        "description": "",
+                        "levels": "",
+                        "links": [ { "url": ""}, { "text": ""}]
+                    }
+                }
+            ]
+        }
+    ],
+    "supervisorio": [
+
+    ]
+}
