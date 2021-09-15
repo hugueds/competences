@@ -7,6 +7,7 @@ let menu = {};
 // TODO: remove URL style
 // TODO: faltou ftp no arquivo da matriz
 // TODO: implement a search field
+// TODO: hover hand over nav div
 
 window.onload = async function(e) {
 
