@@ -6,6 +6,7 @@ let menu = {};
 // TODO: change the tab color when selected
 // TODO: remove URL style
 // TODO: faltou ftp no arquivo da matriz
+// TODO: implement a search field
 
 window.onload = async function(e) {
 
@@ -24,6 +25,7 @@ window.onload = async function(e) {
 
     document.getElementById('skill-name').textContent = selected.name;
     document.getElementById('skill-weight').textContent = selected.weight;
+    // TODO: change the color based on the weight
     document.getElementById('skill-description').textContent = selected.description;
 
     changeTab(2);
@@ -67,10 +69,13 @@ async function renderMenu() {
 }
 
 function renderLevels(selected) {
-    console.log(selected);
-    selected.levels.forEach(element => {
-        
-    });
+
+    for (const [key, level] of Object.entries(selected.levels)) {
+
+        level.forEach(l => {
+           // adicionar ao div de level (key) correspondente
+        });
+    }
 
 }
 

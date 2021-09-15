@@ -9,23 +9,23 @@
 
 #main-container {
     display: flex;
-    border: 1px solid yellow;
     flex-direction: row;
+    /* border: 1px solid yellow; */
 }
 
 #menu-container {
     display: flex;
-    border: 1px solid #000;
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 20%;
     background-color: var(--scania-blue);
     color: var(--scania-white);
+    /* border: 1px solid #000; */
 }
 
 .container {
     display: flex;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .menu-group {
@@ -70,19 +70,25 @@
     color: #FAFAFA;
 }
 
+.skill-item:hover {
+    color: aquamarine;
+}
+
 #content-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 85%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .tab-nav-container {
     display: flex;
     flex-grow: 1;
-    border: 1px solid #000;
     align-items: center;
     max-height: 40px;
+    /* border: 1px solid #000; */
     /* flex-basis: 10%; */
 }
 
@@ -91,8 +97,13 @@
     flex-grow: 1;
     justify-content: center;
     max-height: 30px;
-    /* padding: 1% 1% 1% 1%; */
-    border: 1px solid red;
+    background: #2D2926;
+    color: #FAFAFA;
+    font-size: 1.2rem;
+    margin-left: 0.75%;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 0.5rem;
 }
 
 .tab-content-container {
@@ -100,7 +111,7 @@
     flex-grow: 1;
     flex-direction: column;
     flex-basis: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -119,7 +130,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .weight {
@@ -128,16 +139,14 @@
     flex-basis: 10%;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .weight-circle {
     display: flex;
-    background: #FA9911;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: #60B269;
     width: 3.5em;
     height: 100%;
 }
@@ -145,6 +154,18 @@
 .weight-value {
     display: flex;
     width: auto;
+}
+
+.weight-level-1 {
+    background-color: #ed6f97;
+}
+
+.weight-level-2 {
+    background-color: #fae389;
+}
+
+.weight-level-3 {
+    background-color: #83f791;
 }
 
 .tab-hidden {
@@ -195,8 +216,8 @@
     margin: 0.5% 0.5%;
 }
 
+
 .level > div {
     margin-top: 5%;
-
 }
 

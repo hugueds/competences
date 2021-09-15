@@ -25,8 +25,8 @@
     "profinet": {
         "name": "Profinet",
         "weight": 1,
-        "description": "",
-        "usedFor": [],
+        "description": "O Profinet e um protocolo utilizado na industria",
+        "usedFor": ["Comunicacao entre PLCs", "PN PN Coupler", "Apertadeiras", "Cameras", "Scanners"],
         "levels": {
             "1": [],
             "2": [],
