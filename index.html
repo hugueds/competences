@@ -2,59 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="matriz, matrix, competence, html5" >
+    <meta name="author" content="Hugo Peres - SSBHPE" >
+    <meta name="decription" content="competence guide to fullfill the excel sheet" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automation Competences</title>
     <link rel="stylesheet" href="style.css"/>
+    <title>Automation Competences</title>
 </head>
 <body>
 
 <div id="main-container" class="container">
 
     <!-- side menu -->
-    <div id="menu-container" class="container">
-        <!-- <div class="menu-group">
-            <p>GRUPO A</p>
-        </div>
-        <div id="" class="menu-subgroup">
-            <div class="menu-subgroup-title">
-                <p>SUBGRUPO 1</p>
-            </div>
-            <div id="" class="menu-skill">
-                <div id="" class="menu-skill-item">
-                    <a href="?skill="> Skill 1</a>
-                </div>
-                <div id="" class="menu-skill-item">
-                    <p>Skill 2</p>
-                </div>
-                <div id="" class="menu-skill-item">
-                    <p>Skill 3</p>
-                </div>
-            </div>
-        </div> -->
-    </div>
+    <div id="menu-container" class="container"></div>
 
-    <!-- content   -->
+    <!-- content container   -->
     <div id="content-container" class="container">
 
         <!-- tabs -->
-        <div id="" class="tab-container-nav">
-            <div id="" class="tab-nav">Info</div>
-            <div id="" class="tab-nav">Niveis</div>
-            <div id="" class="tab-nav">Links para Estudo</div>
+        <div id="" class="tab-nav-container">
+            <div id="nav-tab-1" class="tab-nav" onclick="changeTab(1)">Info</div>
+            <div id="nav-tab-2" class="tab-nav" onclick="changeTab(2)">Niveis</div>
+            <div id="nav-tab-3" class="tab-nav" onclick="changeTab(3)">Links para Estudo</div>
         </div>
 
-        <!-- description -->
-        <div id="" class="tab-container-description">
-            <div>
-                <div id="" class="title"> SKILL NAME</div>
-                <div id="" class="level">
-                    <div>circle</div>
-                    <div>number</div>
+        <!-- content -->
+        <div id="" class="tab-content-container">
+
+            <div class='header'>
+                <div id="skill-name" class="title">SKILL NAME</div>
+                <div  class="weight">
+                    <div class='weight-circle'>
+                        <div id="skill-weight" class="weight-value">number</div>
+                    </div>
                 </div>
             </div>
-            <div>
 
+            <div id="tab-1" class="tab-content tab-hidden" > 
+                <div id="skill-description" class="tab-content__description"></div>
+                <div id="skill-usedfor" class="tab-content__usedfor"> </div>
             </div>
+
+            <div id="tab-2" class='tab-content tab-hidden'>
+                <div class="level-title">
+                    Lista de Niveis
+                </div>
+                <div class="level-container">
+                    <div id="level-1" class="level">
+                        <div>Level 1</div>
+                    </div>
+                    <div id="level-2" class="level">
+                        <div>Level 2</div>
+                    </div>
+                    <div id="level-3" class="level">
+                        <div>Level 3</div>
+                    </div>
+                    <div id="level-4" class="level">
+                        <div>Level 4</div>
+                    </div>
+                    <div id="level-5" class="level">
+                        <div>Level 5</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-3" class='tab-content tab-hidden'>
+                <div>
+                    Links Uteis
+                </div>
+                <div>
+                    teste 2
+                </div>
+            </div>
+
         </div>
 
     </div>

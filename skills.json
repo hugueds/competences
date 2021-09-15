@@ -2,55 +2,41 @@
     "ethernet": {
         "name": "Ethernet",
         "weight": 1,
-        "description": "",
-        "levels": "",
+        "description": "O Protocolo Ethernet eh isso, aquilo, aquilo outro e tal",
+        "usedFor": ["comunicacao x", "teste y", "outra coisa z"],
+        "levels": {
+            "1": ["saber o basico", "saber mais um pouco"],
+            "2": ["saber x"],
+            "3": ["saber y"],
+            "4": ["saber 1"],
+            "5": ["saber z", "saber alpha"]
+        },
         "links": [
             {
-                "url": ""
+                "url": "http://google.com",
+                "text": "Site que ensina voce a fazer as coisas"
             },
             {
-                "text": ""
+                "url": "http://google.com",
+                "text": "curso de XYZ"
             }
         ]
     },
-    "openProtocol": {
-        "name": "Open Protocol",
+    "profinet": {
+        "name": "Profinet",
         "weight": 1,
         "description": "",
-        "levels": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
         "links": [
             {
-                "url": ""
-            },
-            {
-                "text": ""
-            }
-        ]
-    },
-    "modbus": {
-        "name": "",
-        "weight": 2,
-        "description": "Modbus",
-        "levels": "",
-        "links": [
-            {
-                "url": ""
-            },
-            {
-                "text": ""
-            }
-        ]
-    },
-    "opcua": {
-        "name": "OPC UA",
-        "weigth": 2,
-        "description": "OPC UA",
-        "levels": "",
-        "links": [
-            {
-                "url": ""
-            },
-            {
+                "url": "",
                 "text": ""
             }
         ]

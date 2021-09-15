@@ -3,6 +3,9 @@ let data = {};
 let selectedTab = 0;
 let menu = {};
 
+// TODO: change the tab color when selected
+// TODO: remove URL style
+// TODO: faltou ftp no arquivo da matriz
 
 window.onload = async function(e) {
 
@@ -15,19 +18,23 @@ window.onload = async function(e) {
     const params = window.location.search;
     const search = new URLSearchParams(params);
 
-    // selecionar o objeto adequado baseado nos parametros
-    // renderizar o menu lateral baseado no arquivo menu.js
+    const skill = search.get('skill');
 
-    let g = search.get('group')
-    let sg = search.get('subgroup')
+    const selected = data[skill]; // TODO: validate if object was found or not
 
-    let selected = data
-    // verificar a tab selecionada
+    document.getElementById('skill-name').textContent = selected.name;
+    document.getElementById('skill-weight').textContent = selected.weight;
+    document.getElementById('skill-description').textContent = selected.description;
 
+    changeTab(2);
+    renderLevels(selected);
+
+    // para cada usedfor criar uma linha
     
 }
 
 async function renderMenu() {
+    
     await fetch('menu.json')
         .then(response => response.json())
         .then(x => Object.assign(menu, x)) 
@@ -35,41 +42,49 @@ async function renderMenu() {
     let mainMenu = document.querySelector('#menu-container')
     let html = '';
 
-    for (const [key, value] of Object.entries(menu)) {
-        // append this to level 1 
-        html += `<div class="menu-group"> <p>${value.name}</p></div>`;
-        // mainMenu.insertAdjacentHTML('beforeend', group)
+    for (const [key, group] of Object.entries(menu)) {
 
-        let sub = value;
+        html += `<div class="menu-group"> <p>${group.name}</p></div>`;
         
-        for (const [key2, value2] of Object.entries(sub.subgroups)) {
-            console.log(value2);
+        for (const [key2, subgroup] of Object.entries(group.subgroups)) {
             html += `
                 <div id="" class="menu-subgroup">
                     <div class="menu-subgroup-title">
-                        <p>${value2.name}</p>
+                        <p>${subgroup.name}</p>
                     </div>
-                    <div id="" class="menu-skill">`;
-            // mainMenu.insertAdjacentHTML('beforeend', sgroup)
+                <div id="" class="menu-skill">`;
 
-            let sub2 = value2;
-
-            for (const [key3, value3] of Object.entries(sub2.skills)) {
-                console.log(value3);
+            for (const [key3, skill] of Object.entries(subgroup.skills)) {
                 html += `
                         <div id="" class="menu-skill-item">
-                            <a href="?skill=${value3}">${value3}</a>
+                            <a class="skill-item" href="?skill=${skill.key}">${skill.name}</a>
                         </div>`;
-                
-                // mainMenu.insertAdjacentHTML('beforeend', skill)
             }
             html += '</div></div>';
-
-            // mainMenu.insertAdjacentHTML('beforeend', '</div>')
-
         }
-
     }
     mainMenu.insertAdjacentHTML('beforeend', html) 
+}
+
+function renderLevels(selected) {
+    console.log(selected);
+    selected.levels.forEach(element => {
+        
+    });
 
 }
+
+function changeTab(tab) {
+
+    const selectedTab = 'tab-'+tab;
+    const nodeList = document.querySelectorAll('.tab-content');
+
+    nodeList.forEach(node => {
+        node.classList.add('tab-hidden');
+        if (node.id == selectedTab) {
+            node.classList.remove('tab-hidden');
+        }
+    });
+}
+
+

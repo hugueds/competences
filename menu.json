@@ -5,34 +5,85 @@
             "redesIndustriais": {
                 "name": "Redes Industriais",
                 "skills": [
-                    "ethernet",
-                    "profinet",
-                    "opcua",
-                    "modbus",
-                    "iolink",
-                    "openProtocol",
-                    "rs232",
-                    "switch",
-                    "router",
-                    "arquiteture"
+                    {
+                        "key": "ethernet",
+                        "name": "Ethernet"
+                    },
+                    {
+                        "key": "profinet",
+                        "name": "Profinet"
+                    },
+                    {
+                        "key": "opcua",
+                        "name": "OPC UA"
+                    },
+                    {
+                        "key": "modbus",
+                        "name": "Modbus"
+                    },
+                    {
+                        "key": "iolink",
+                        "name": "IO Link"
+                    },
+                    {
+                        "key": "openProtocol",
+                        "name": "Open Protocol"
+                    },
+                    {
+                        "key": "rs232",
+                        "name": "RS 232"
+                    },
+                    {
+                        "key": "switch",
+                        "name": "Switch"
+                    },
+                    {
+                        "key": "router",
+                        "name": "Router and AP"
+                    },
+                    {
+                        "key": "arquiteture",
+                        "name": "Architecture"
+                    }
                 ]
             },
             "tiaPortal": {
                 "name": "Tia Portal Programacao",
                 "skills": [
-                    "stl",
-                    "graph7",
-                    "fbd",
-                    "ladder",
-                    "scl",
-                    "s7Connection",
-                    "config"
+                    {
+                        "key": "stl",
+                        "name": "STL"
+                    },
+                    {
+                        "key": "graph7",
+                        "name": "GRAPH 7"
+                    },
+                    {
+                        "key": "fbd",
+                        "name": "FBD"
+                    },
+                    {
+                        "key": "ladder",
+                        "name": "Ladder"
+                    },
+                    {
+                        "key": "scl",
+                        "name": "SCL"
+                    },
+                    {
+                        "key": "s7Connection",
+                        "name": "S7 Connection"
+                    },
+                    {
+                        "key": "config",
+                        "name": "Configuration"
+                    }
                 ]
             },
             "db": {
                 "name": "DB",
                 "skills": [
-                    "sql"
+                    { "key": "sql", "name": "SQL" }
                 ]
             }
         }
@@ -43,14 +94,32 @@
             "scada": {
                 "name": "SCADA",
                 "skills": [
-                    "components",
-                    "tagManager",
-                    "scripts",
-                    "design",
-                    "userControl",
-                    "webNavigator"
+                    {
+                        "key": "components",
+                        "name": "Design Components"
+                    },
+                    {
+                        "key": "tagManager",
+                        "name": "Tag Manager"
+                    },
+                    {
+                        "key": "scripts",
+                        "name": "Scripts (VB / Python)"
+                    },
+                    {
+                        "key": "design",
+                        "name": "Design Practices"
+                    },
+                    {
+                        "key": "userControl",
+                        "name": "User Access / Control"
+                    },
+                    {
+                        "key": "webNavigator",
+                        "name": "Web Navigator / Perspective"
+                    }
                 ]
-            }            
+            }
         }
     },
     "webDevelopment": {
@@ -58,31 +127,78 @@
         "subgroups": {
             "protocols": {
                 "name": "Redes",
-                "skills":["http", "soap", "rest", "jsonXML"]
+                "skills": [
+                    {
+                        "key": "http",
+                        "name": "HTTP / HTTPS"
+                    },
+                    {
+                        "key": "soap",
+                        "name": "SOAP"
+                    },
+                    {
+                        "key": "rest",
+                        "name": "REST"
+                    },
+                    {
+                        "key": "jsonXML",
+                        "name": "JSON / XML"
+                    }
+                ]
             },
             "programmingLanguages": {
                 "name": "Linguagens de Programacao",
                 "skills": [
-                    "javascript",
-                    "python",
-                    "cSharp",
-                    "nodejs"
+                    {
+                        "key": "javascript",
+                        "name": "Javascript"
+                    },
+                    {
+                        "key": "python",
+                        "name": "Python"
+                    },
+                    {
+                        "key": "cSharp",
+                        "name": "C# / .Net"
+                    },
+                    {
+                        "key": "nodejs",
+                        "name": "Node JS"
+                    }
                 ]
             },
             "frontEnd": {
                 "name": "Marcacao e Frameworks",
                 "skills": [
-                    "html",
-                    "css",
-                    "bootstrap",
-                    "angular",
-                    "flask"
+                    {
+                        "key": "html",
+                        "name": "HTML"
+                    },
+                    {
+                        "key": "css",
+                        "name": "CSS"
+                    },
+                    {
+                        "key": "bootstrap",
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "key": "angular",
+                        "name": "Angular"
+                    },
+                    {
+                        "key": "flask",
+                        "name": "Flask"
+                    }
                 ]
             },
             "versioning": {
                 "name": "Versionamento",
                 "skills": [
-                    "gitTFS"
+                    {
+                        "key": "gitTFS",
+                        "name": "Git / TFS"
+                    }
                 ]
             }
         }
@@ -93,23 +209,61 @@
             "panels": {
                 "name": "Paineis Eletricos",
                 "skills": [
-                    "components", "qrCode", "ioWireless", "eletricProjects"
+                    {
+                        "key": "components",
+                        "name": "Componentes do Painel"
+                    },
+                    {
+                        "key": "qrCode",
+                        "name": "QR Code / DataMatrix"
+                    },
+                    {
+                        "key": "ioWireless",
+                        "name": "IO Wireless / Botao sem fio"
+                    },
+                    {
+                        "key": "eletricProjects",
+                        "name": "Projetos Eletricos"
+                    }
                 ]
             },
             "mechanicalProject": {
                 "name": "Projeto Mecanico",
-                "skills": ["techDrawing"]
+                "skills": [
+                    {
+                        "key": "techDrawing",
+                        "name": "Desenho Tecnico"
+                    }
+                ]
             },
             "commands": {
                 "name": "Sistema de Controle",
                 "skills": [
-                    "pneumaticHid", "electric"
+                    {
+                        "key": "pneumaticHid",
+                        "name": "Pneumatico / Hidraulico"
+                    },
+                    {
+                        "key": "electric",
+                        "name": "Eletrico"
+                    }
                 ]
             },
             "dataCollection": {
                 "name": "Coleta de Dados",
                 "skills": [
-                    "visionSystems", "rfid", "bioReader"
+                    {
+                        "key": "visionSystems",
+                        "name": "Sistemas de Visao"
+                    },
+                    {
+                        "key": "rfid",
+                        "name": "RFID"
+                    },
+                    {
+                        "key": "bioReader",
+                        "name": "Leitores Biometricos"
+                    }
                 ]
             }
         }
