@@ -1,0 +1,117 @@
+{
+    "plc": {
+        "name": "PLC",
+        "subgroups": {
+            "redesIndustriais": {
+                "name": "Redes Industriais",
+                "skills": [
+                    "ethernet",
+                    "profinet",
+                    "opcua",
+                    "modbus",
+                    "iolink",
+                    "openProtocol",
+                    "rs232",
+                    "switch",
+                    "router",
+                    "arquiteture"
+                ]
+            },
+            "tiaPortal": {
+                "name": "Tia Portal Programacao",
+                "skills": [
+                    "stl",
+                    "graph7",
+                    "fbd",
+                    "ladder",
+                    "scl",
+                    "s7Connection",
+                    "config"
+                ]
+            },
+            "db": {
+                "name": "DB",
+                "skills": [
+                    "sql"
+                ]
+            }
+        }
+    },
+    "supervisorio": {
+        "name": "Supervisorio",
+        "subgroups": {
+            "scada": {
+                "name": "SCADA",
+                "skills": [
+                    "components",
+                    "tagManager",
+                    "scripts",
+                    "design",
+                    "userControl",
+                    "webNavigator"
+                ]
+            }            
+        }
+    },
+    "webDevelopment": {
+        "name": "Desenvolvimento Web",
+        "subgroups": {
+            "protocols": {
+                "name": "Redes",
+                "skills":["http", "soap", "rest", "jsonXML"]
+            },
+            "programmingLanguages": {
+                "name": "Linguagens de Programacao",
+                "skills": [
+                    "javascript",
+                    "python",
+                    "cSharp",
+                    "nodejs"
+                ]
+            },
+            "frontEnd": {
+                "name": "Marcacao e Frameworks",
+                "skills": [
+                    "html",
+                    "css",
+                    "bootstrap",
+                    "angular",
+                    "flask"
+                ]
+            },
+            "versioning": {
+                "name": "Versionamento",
+                "skills": [
+                    "gitTFS"
+                ]
+            }
+        }
+    },
+    "prototyping": {
+        "name": "Construcao e Prototipagem",
+        "subgroups": {
+            "panels": {
+                "name": "Paineis Eletricos",
+                "skills": [
+                    "components", "qrCode", "ioWireless", "eletricProjects"
+                ]
+            },
+            "mechanicalProject": {
+                "name": "Projeto Mecanico",
+                "skills": ["techDrawing"]
+            },
+            "commands": {
+                "name": "Sistema de Controle",
+                "skills": [
+                    "pneumaticHid", "electric"
+                ]
+            },
+            "dataCollection": {
+                "name": "Coleta de Dados",
+                "skills": [
+                    "visionSystems", "rfid", "bioReader"
+                ]
+            }
+        }
+    }
+}
