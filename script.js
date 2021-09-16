@@ -26,6 +26,7 @@ window.onload = async function(e) {
 
     document.getElementById('skill-name').textContent = selected.name;
     document.getElementById('skill-weight').textContent = selected.weight;
+    document.getElementById('skill-weight').classList.add('weight-level-' + selected.weight);
     // TODO: change the color based on the weight
     document.getElementById('skill-description').textContent = selected.description;
 
@@ -71,11 +72,14 @@ async function renderMenu() {
 
 function renderLevels(selected) {
 
-    for (const [key, level] of Object.entries(selected.levels)) {
+    let html = '';
 
+    for (const [key, level] of Object.entries(selected.levels)) {
+        html = ''        
         level.forEach(l => {
-           // adicionar ao div de level (key) correspondente
+           html += `<div class='skill-level-item'>* ${l}</div>`
         });
+        document.getElementById('level-' + key).insertAdjacentHTML('beforeend', html)
     }
 
 }
@@ -84,13 +88,20 @@ function changeTab(tab) {
 
     const selectedTab = 'tab-'+tab;
     const nodeList = document.querySelectorAll('.tab-content');
+    const tabList = document.querySelectorAll('.tab-nav');
+
+    tabList.forEach( navtab => {
+        navtab.classList.remove('tab-selected');
+        if (navtab.id == 'nav-tab-' + tab)
+            navtab.classList.add('tab-selected');
+    });
 
     nodeList.forEach(node => {
         node.classList.add('tab-hidden');
-        if (node.id == selectedTab) {
+        if (node.id == selectedTab) 
             node.classList.remove('tab-hidden');
-        }
     });
+
 }
 
 

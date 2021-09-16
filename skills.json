@@ -1,32 +1,9 @@
 {
     "ethernet": {
-        "name": "Ethernet",
-        "weight": 1,
-        "description": "O Protocolo Ethernet eh isso, aquilo, aquilo outro e tal",
-        "usedFor": ["comunicacao x", "teste y", "outra coisa z"],
-        "levels": {
-            "1": ["saber o basico", "saber mais um pouco"],
-            "2": ["saber x"],
-            "3": ["saber y"],
-            "4": ["saber 1"],
-            "5": ["saber z", "saber alpha"]
-        },
-        "links": [
-            {
-                "url": "http://google.com",
-                "text": "Site que ensina voce a fazer as coisas"
-            },
-            {
-                "url": "http://google.com",
-                "text": "curso de XYZ"
-            }
-        ]
-    },
-    "profinet": {
-        "name": "Profinet",
-        "weight": 1,
-        "description": "O Profinet e um protocolo utilizado na industria",
-        "usedFor": ["Comunicacao entre PLCs", "PN PN Coupler", "Apertadeiras", "Cameras", "Scanners"],
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
         "levels": {
             "1": [],
             "2": [],
@@ -35,6 +12,1965 @@
             "5": []
         },
         "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "profinet": {
+        "name": "Profinet",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "opcua": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "modbus": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "iolink": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "openProtocol": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rs232": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "switch": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "router": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "arquiteture": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "stl": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "graph7": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "fbd": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ladder": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "scl": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "s7Connection": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "config": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "sql": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "components": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tagManager": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "scripts": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "design": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "userControl": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "webNavigator": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "http": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "soap": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rest": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "jsonXML": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "javascript": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "python": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cSharp": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nodejs": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "html": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "css": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "bootstrap": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "angular": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "flask": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "gitTFS": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pcomponents": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "qrCode": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ioWireless": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "eletricProjects": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "techDrawing": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pneumaticHid": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "electric": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "visionSystems": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rfid": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "bioReader": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "generalEletronics": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "arduino": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "peip": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "agile": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "epic": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "folders": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "office": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "jira": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tfp": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pride": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nf": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "powerApps": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "powerbi": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "mona": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "les": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "takt": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "neogrid": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "visa": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "coin": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "maximo": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "insight": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cvx": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "3dxml": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "3dxp": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "keyence": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "vs": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "catia": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "autocad": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "eplan": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "wincc": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ignition": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tia": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "sbc": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "mqtt": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nosql": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cobot": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ml": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "opencv": {
+        "name": "",
+        "weight": 0,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
             {
                 "url": "",
                 "text": ""
