@@ -83,7 +83,10 @@
             "db": {
                 "name": "DB",
                 "skills": [
-                    { "key": "sql", "name": "SQL" }
+                    {
+                        "key": "sql",
+                        "name": "SQL"
+                    }
                 ]
             }
         }
@@ -263,6 +266,218 @@
                     {
                         "key": "bioReader",
                         "name": "Leitores Biometricos"
+                    }
+                ]
+            },
+            "electronicProject": {
+                "name": "Projeto Eletronico",
+                "skills": [
+                    {
+                        "key": "generalEletronics",
+                        "name": "Eletronica Digital, Analog, Potencia"
+                    },
+                    {
+                        "key": "arduino",
+                        "name": "Arduino, ESP32, NodeMCU"
+                    }
+                ]
+            }
+        }
+    },
+    "projectManagement": {
+        "name": "Gestao de Projetos",
+        "subgroups": {
+            "methods": {
+                "name": "Metodos",
+                "skills": [
+                    {
+                        "key": "peip",
+                        "name": "PEIP"
+                    },
+                    {
+                        "key": "agile",
+                        "name": "Agile (Scrum/Kanban)"
+                    }
+                ]
+            },
+            "fup": {
+                "name": "FUP",
+                "skills": [
+                    {
+                        "key": "epic",
+                        "name": "EPIC"
+                    },
+                    {
+                        "key": "folders",
+                        "name": "Estrutura de Pastas"
+                    },
+                    {
+                        "key": "office",
+                        "name": "Office 365"
+                    }
+                ]
+            },
+            "supportTools": {
+                "name": "Ferramentas de Suporte",
+                "skills": [
+                    {
+                        "key": "jira",
+                        "name": "JIRA"
+                    },
+                    {
+                        "key": "tfp",
+                        "name": "TFP"
+                    },
+                    {
+                        "key": "pride",
+                        "name": "Pride"
+                    },
+                    {
+                        "key": "nf",
+                        "name": "Gerar NF"
+                    },
+                    {
+                        "key": "powerApps",
+                        "name": "Power Apps"
+                    },
+                    {
+                        "key": "powerbi",
+                        "name": "Power BI"
+                    }
+                ]
+            }
+        }
+    },
+    "softwares": {
+        "name": "Softwares",
+        "subgroups": {
+            "coorporate": {
+                "name": "Coorporativos",
+                "skills": [
+                    {
+                        "key": "mona",
+                        "name": "Mona LTS"
+                    },
+                    {
+                        "key": "les",
+                        "name": "LES / Web LES"
+                    },
+                    {
+                        "key": "takt",
+                        "name": "TAKT / TTS"
+                    },
+                    {
+                        "key": "neogrid",
+                        "name": "Neogrid"
+                    },
+                    {
+                        "key": "visa",
+                        "name": "VISA"
+                    },
+                    {
+                        "key": "coin",
+                        "name": "COIN"
+                    },
+                    {
+                        "key": "maximo",
+                        "name": "MAXIMO"
+                    }
+                ]
+            },
+            "third": {
+                "name": "Terceiros",
+                "skills": [
+                    {
+                        "key": "insight",
+                        "name": "IN-SIGHT"
+                    },
+                    {
+                        "key": "cvx",
+                        "name": "CVX Series"
+                    },
+                    {
+                        "key": "3dxml",
+                        "name": "3DXML Player"
+                    },
+                    {
+                        "key": "3dxp",
+                        "name": "3D Experience"
+                    },
+                    {
+                        "key": "keyence",
+                        "name": "Keyence Nav"
+                    },
+                    {
+                        "key": "vs",
+                        "name": "Visual Studio / Visual Studio Code"
+                    },
+                    {
+                        "key": "catia",
+                        "name": "Catia"
+                    },
+                    {
+                        "key": "autocad",
+                        "name": "Auto Cad"
+                    },
+                    {
+                        "key": "eplan",
+                        "name": "E-Plan"
+                    },
+                    {
+                        "key": "wincc",
+                        "name": "WinCC"
+                    },
+                    {
+                        "key": "ignition",
+                        "name": "Ignition"
+                    },
+                    {
+                        "key": "tia",
+                        "name": "TIA Portal"
+                    }
+                ]
+            }
+        }
+    },
+    "inovation": {
+        "name": "Inovacao",
+        "subgroups": {
+            "cloud": {
+                "name": "Cloud & IoT",
+                "skills": [
+                    {
+                        "key": "sbc",
+                        "name": "Single Board Computers"
+                    },
+                    {
+                        "key": "mqtt",
+                        "name": "MQTT"
+                    }
+                ]
+            },
+            "db": {
+                "name": "DB",
+                "skills": [
+                    {
+                        "key": "nosql",
+                        "name": "NoSQL"
+                    }
+                ]
+            },
+            "newTech": {
+                "name": "Novas Tecnologias",
+                "skills": [
+                    {
+                        "key": "cobot",
+                        "name": "Cobot"
+                    },
+                    {
+                        "key": "ml",
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "key": "opencv",
+                        "name": "Open CV"
                     }
                 ]
             }
