@@ -91,15 +91,6 @@
             }
         }
     },
-// ir para inicio da linha 
-// copia a palavra entre aspas no registrador a
-// desce uma linha
-// copia a palavra do segundo par de aspas no registrador b
-// vai para o inicio do arquivo
-// procuar a palavra a 
-// desce uma linha
-// entra dentro do segundo par de aspas
-// cola a palavra b
     "supervisorio": {
         "name": "Supervisorio",
         "subgroups": {

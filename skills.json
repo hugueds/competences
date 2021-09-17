@@ -1,6 +1,6 @@
 {
     "ethernet": {
-        "name": "",
+        "name": "Ethernet",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -46,7 +46,7 @@
         ]
     },
     "opcua": {
-        "name": "",
+        "name": "OPC UA",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -69,7 +69,7 @@
         ]
     },
     "modbus": {
-        "name": "",
+        "name": "Modbus",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -92,7 +92,7 @@
         ]
     },
     "iolink": {
-        "name": "",
+        "name": "IO Link",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -115,7 +115,7 @@
         ]
     },
     "openProtocol": {
-        "name": "",
+        "name": "Open Protocol",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -138,7 +138,7 @@
         ]
     },
     "rs232": {
-        "name": "",
+        "name": "RS 232",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -161,7 +161,7 @@
         ]
     },
     "switch": {
-        "name": "",
+        "name": "Switch",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -184,7 +184,7 @@
         ]
     },
     "router": {
-        "name": "",
+        "name": "Router and AP",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -207,7 +207,7 @@
         ]
     },
     "arquiteture": {
-        "name": "",
+        "name": "Architecture",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -230,7 +230,7 @@
         ]
     },
     "stl": {
-        "name": "",
+        "name": "STL",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -253,7 +253,7 @@
         ]
     },
     "graph7": {
-        "name": "",
+        "name": "GRAPH 7",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -276,7 +276,7 @@
         ]
     },
     "fbd": {
-        "name": "",
+        "name": "FBD",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -299,7 +299,7 @@
         ]
     },
     "ladder": {
-        "name": "",
+        "name": "Ladder",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -322,7 +322,7 @@
         ]
     },
     "scl": {
-        "name": "",
+        "name": "SCL",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -345,7 +345,7 @@
         ]
     },
     "s7Connection": {
-        "name": "",
+        "name": "S7 Connection",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -368,7 +368,7 @@
         ]
     },
     "config": {
-        "name": "",
+        "name": "Configuration",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -391,7 +391,7 @@
         ]
     },
     "sql": {
-        "name": "",
+        "name": "SQL",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -414,7 +414,7 @@
         ]
     },
     "components": {
-        "name": "",
+        "name": "Componentes do Painel",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -437,9 +437,9 @@
         ]
     },
     "tagManager": {
-        "name": "",
+        "name": "Tag Manager",
         "weight": 0,
-        "description": "",
+        "description": "Tag Manager",
         "usedFor": [],
         "levels": {
             "1": [],
@@ -460,9 +460,9 @@
         ]
     },
     "scripts": {
-        "name": "",
+        "name": "Scripts (VB / Python)",
         "weight": 0,
-        "description": "",
+        "description": "Python",
         "usedFor": [],
         "levels": {
             "1": [],
@@ -483,7 +483,7 @@
         ]
     },
     "design": {
-        "name": "",
+        "name": "Desing de Telas",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -506,7 +506,7 @@
         ]
     },
     "userControl": {
-        "name": "",
+        "name": "User Access / Control",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -529,7 +529,7 @@
         ]
     },
     "webNavigator": {
-        "name": "",
+        "name": "Web Navigator / Perspective",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -552,7 +552,7 @@
         ]
     },
     "http": {
-        "name": "",
+        "name": "HTTP / HTTPS",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -575,7 +575,7 @@
         ]
     },
     "soap": {
-        "name": "",
+        "name": "SOAP",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -598,7 +598,7 @@
         ]
     },
     "rest": {
-        "name": "",
+        "name": "REST",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -621,7 +621,7 @@
         ]
     },
     "jsonXML": {
-        "name": "",
+        "name": "JSON / XML",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -644,7 +644,7 @@
         ]
     },
     "javascript": {
-        "name": "",
+        "name": "Javascript",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -667,7 +667,7 @@
         ]
     },
     "python": {
-        "name": "",
+        "name": "Python",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -690,7 +690,7 @@
         ]
     },
     "cSharp": {
-        "name": "",
+        "name": "C# / .Net",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -713,7 +713,7 @@
         ]
     },
     "nodejs": {
-        "name": "",
+        "name": "Node JS",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -736,7 +736,7 @@
         ]
     },
     "html": {
-        "name": "",
+        "name": "HTML",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -759,7 +759,7 @@
         ]
     },
     "css": {
-        "name": "",
+        "name": "CSS",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -782,7 +782,7 @@
         ]
     },
     "bootstrap": {
-        "name": "",
+        "name": "Bootstrap",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -805,7 +805,7 @@
         ]
     },
     "angular": {
-        "name": "",
+        "name": "Angular",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -828,7 +828,7 @@
         ]
     },
     "flask": {
-        "name": "",
+        "name": "Flask",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -851,9 +851,9 @@
         ]
     },
     "gitTFS": {
-        "name": "",
+        "name": "Git / TFS",
         "weight": 0,
-        "description": "",
+        "description": "GIT / Team Foundation",
         "usedFor": [],
         "levels": {
             "1": [],
@@ -874,7 +874,7 @@
         ]
     },
     "pcomponents": {
-        "name": "",
+        "name": "Componentes de Painel",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -897,7 +897,7 @@
         ]
     },
     "qrCode": {
-        "name": "",
+        "name": "QR Code / DataMatrix",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -920,7 +920,7 @@
         ]
     },
     "ioWireless": {
-        "name": "",
+        "name": "IO Wireless / Botao sem fio",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -943,7 +943,7 @@
         ]
     },
     "eletricProjects": {
-        "name": "",
+        "name": "Projetos Eletricos",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -966,7 +966,7 @@
         ]
     },
     "techDrawing": {
-        "name": "",
+        "name": "Desenho Tecnico",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -989,7 +989,7 @@
         ]
     },
     "pneumaticHid": {
-        "name": "",
+        "name": "Pneumatico / Hidraulico",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1012,7 +1012,7 @@
         ]
     },
     "electric": {
-        "name": "",
+        "name": "Eletrico",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1035,7 +1035,7 @@
         ]
     },
     "visionSystems": {
-        "name": "",
+        "name": "Sistemas de Visao",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1058,7 +1058,7 @@
         ]
     },
     "rfid": {
-        "name": "",
+        "name": "RFID",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1081,7 +1081,7 @@
         ]
     },
     "bioReader": {
-        "name": "",
+        "name": "Leitores Biometricos",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1104,7 +1104,7 @@
         ]
     },
     "generalEletronics": {
-        "name": "",
+        "name": "Eletronica Digital, Analog, Potencia",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1127,7 +1127,7 @@
         ]
     },
     "arduino": {
-        "name": "",
+        "name": "Arduino, ESP32, NodeMCU",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1150,7 +1150,7 @@
         ]
     },
     "peip": {
-        "name": "",
+        "name": "PEIP",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1173,7 +1173,7 @@
         ]
     },
     "agile": {
-        "name": "",
+        "name": "Agile (Scrum/Kanban)",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1196,7 +1196,7 @@
         ]
     },
     "epic": {
-        "name": "",
+        "name": "EPIC",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1219,7 +1219,7 @@
         ]
     },
     "folders": {
-        "name": "",
+        "name": "Estrutura de Pastas",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1242,7 +1242,7 @@
         ]
     },
     "office": {
-        "name": "",
+        "name": "Office 365",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1265,7 +1265,7 @@
         ]
     },
     "jira": {
-        "name": "",
+        "name": "JIRA",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1288,7 +1288,7 @@
         ]
     },
     "tfp": {
-        "name": "",
+        "name": "TFP",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1311,7 +1311,7 @@
         ]
     },
     "pride": {
-        "name": "",
+        "name": "Pride",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1334,7 +1334,7 @@
         ]
     },
     "nf": {
-        "name": "",
+        "name": "Nota Fiscal",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1357,7 +1357,7 @@
         ]
     },
     "powerApps": {
-        "name": "",
+        "name": "Power Apps",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1380,7 +1380,7 @@
         ]
     },
     "powerbi": {
-        "name": "",
+        "name": "Power BI",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1403,7 +1403,7 @@
         ]
     },
     "mona": {
-        "name": "",
+        "name": "Mona LTS",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1426,7 +1426,7 @@
         ]
     },
     "les": {
-        "name": "",
+        "name": "LES",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1449,7 +1449,7 @@
         ]
     },
     "takt": {
-        "name": "",
+        "name": "TAKT / TTS",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1472,7 +1472,7 @@
         ]
     },
     "neogrid": {
-        "name": "",
+        "name": "Neogrid",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1495,7 +1495,7 @@
         ]
     },
     "visa": {
-        "name": "",
+        "name": "Visa Web",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1518,7 +1518,7 @@
         ]
     },
     "coin": {
-        "name": "",
+        "name": "COIN",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1541,7 +1541,7 @@
         ]
     },
     "maximo": {
-        "name": "",
+        "name": "MAXIMO",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1564,7 +1564,7 @@
         ]
     },
     "insight": {
-        "name": "",
+        "name": "IN-SIGHT",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1587,7 +1587,7 @@
         ]
     },
     "cvx": {
-        "name": "",
+        "name": "CVX Series",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1610,7 +1610,7 @@
         ]
     },
     "3dxml": {
-        "name": "",
+        "name": "3DXML Player",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1633,7 +1633,7 @@
         ]
     },
     "3dxp": {
-        "name": "",
+        "name": "3D Experience",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1656,7 +1656,7 @@
         ]
     },
     "keyence": {
-        "name": "",
+        "name": "Keyence Nav",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1679,7 +1679,7 @@
         ]
     },
     "vs": {
-        "name": "",
+        "name": "Visual Studio / Visual Studio Code",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1702,7 +1702,7 @@
         ]
     },
     "catia": {
-        "name": "",
+        "name": "Catia",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1725,7 +1725,7 @@
         ]
     },
     "autocad": {
-        "name": "",
+        "name": "Auto CadAuto Cad",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1748,7 +1748,7 @@
         ]
     },
     "eplan": {
-        "name": "",
+        "name": "E-Plan",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1771,7 +1771,7 @@
         ]
     },
     "wincc": {
-        "name": "",
+        "name": "WinCC",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1794,7 +1794,7 @@
         ]
     },
     "ignition": {
-        "name": "",
+        "name": "Ignition",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1817,7 +1817,7 @@
         ]
     },
     "tia": {
-        "name": "",
+        "name": "TIA Portal",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1840,7 +1840,7 @@
         ]
     },
     "sbc": {
-        "name": "",
+        "name": "Single Board Computers",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1863,7 +1863,7 @@
         ]
     },
     "mqtt": {
-        "name": "",
+        "name": "MQTT",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1886,7 +1886,7 @@
         ]
     },
     "nosql": {
-        "name": "",
+        "name": "NoSQL",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1909,7 +1909,7 @@
         ]
     },
     "cobot": {
-        "name": "",
+        "name": "Cobot",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1932,7 +1932,7 @@
         ]
     },
     "ml": {
-        "name": "",
+        "name": "Machine Learning",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1955,7 +1955,7 @@
         ]
     },
     "opencv": {
-        "name": "",
+        "name": "Open CV",
         "weight": 0,
         "description": "",
         "usedFor": [],
@@ -1978,3 +1978,5 @@
         ]
     }
 }
+
+
