@@ -1,7 +1,7 @@
 {
     "ethernet": {
         "name": "Ethernet",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -24,7 +24,7 @@
     },
     "profinet": {
         "name": "Profinet",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -47,7 +47,7 @@
     },
     "opcua": {
         "name": "OPC UA",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -70,7 +70,7 @@
     },
     "modbus": {
         "name": "Modbus",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -93,7 +93,7 @@
     },
     "iolink": {
         "name": "IO Link",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -116,7 +116,7 @@
     },
     "openProtocol": {
         "name": "Open Protocol",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -139,7 +139,7 @@
     },
     "rs232": {
         "name": "RS 232",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -162,7 +162,7 @@
     },
     "switch": {
         "name": "Switch",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -185,7 +185,7 @@
     },
     "router": {
         "name": "Router and AP",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -208,7 +208,7 @@
     },
     "arquiteture": {
         "name": "Architecture",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -231,7 +231,7 @@
     },
     "stl": {
         "name": "STL",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -254,7 +254,7 @@
     },
     "graph7": {
         "name": "GRAPH 7",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -277,7 +277,7 @@
     },
     "fbd": {
         "name": "FBD",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -300,7 +300,7 @@
     },
     "ladder": {
         "name": "Ladder",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -323,7 +323,7 @@
     },
     "scl": {
         "name": "SCL",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -346,7 +346,7 @@
     },
     "s7Connection": {
         "name": "S7 Connection",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -369,7 +369,7 @@
     },
     "config": {
         "name": "Configuration",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -392,7 +392,7 @@
     },
     "sql": {
         "name": "SQL",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -415,7 +415,7 @@
     },
     "components": {
         "name": "Componentes do Painel",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -438,7 +438,7 @@
     },
     "tagManager": {
         "name": "Tag Manager",
-        "weight": 0,
+        "weight": 3,
         "description": "Tag Manager",
         "usedFor": [],
         "levels": {
@@ -461,7 +461,7 @@
     },
     "scripts": {
         "name": "Scripts (VB / Python)",
-        "weight": 0,
+        "weight": 3,
         "description": "Python",
         "usedFor": [],
         "levels": {
@@ -484,7 +484,7 @@
     },
     "design": {
         "name": "Desing de Telas",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -507,7 +507,7 @@
     },
     "userControl": {
         "name": "User Access / Control",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -530,7 +530,7 @@
     },
     "webNavigator": {
         "name": "Web Navigator / Perspective",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -553,7 +553,7 @@
     },
     "http": {
         "name": "HTTP / HTTPS",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -576,7 +576,7 @@
     },
     "soap": {
         "name": "SOAP",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -599,7 +599,7 @@
     },
     "rest": {
         "name": "REST",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -622,7 +622,7 @@
     },
     "jsonXML": {
         "name": "JSON / XML",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -645,7 +645,7 @@
     },
     "javascript": {
         "name": "Javascript",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -668,7 +668,7 @@
     },
     "python": {
         "name": "Python",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -691,7 +691,7 @@
     },
     "cSharp": {
         "name": "C# / .Net",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -714,7 +714,7 @@
     },
     "nodejs": {
         "name": "Node JS",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -737,7 +737,7 @@
     },
     "html": {
         "name": "HTML",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -760,7 +760,7 @@
     },
     "css": {
         "name": "CSS",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -783,7 +783,7 @@
     },
     "bootstrap": {
         "name": "Bootstrap",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -806,7 +806,7 @@
     },
     "angular": {
         "name": "Angular",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -829,7 +829,7 @@
     },
     "flask": {
         "name": "Flask",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -852,7 +852,7 @@
     },
     "gitTFS": {
         "name": "Git / TFS",
-        "weight": 0,
+        "weight": 2,
         "description": "GIT / Team Foundation",
         "usedFor": [],
         "levels": {
@@ -875,7 +875,7 @@
     },
     "pcomponents": {
         "name": "Componentes de Painel",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -898,7 +898,7 @@
     },
     "qrCode": {
         "name": "QR Code / DataMatrix",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -921,7 +921,7 @@
     },
     "ioWireless": {
         "name": "IO Wireless / Botao sem fio",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -944,7 +944,7 @@
     },
     "eletricProjects": {
         "name": "Projetos Eletricos",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -967,7 +967,7 @@
     },
     "techDrawing": {
         "name": "Desenho Tecnico",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -990,7 +990,7 @@
     },
     "pneumaticHid": {
         "name": "Pneumatico / Hidraulico",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1013,7 +1013,7 @@
     },
     "electric": {
         "name": "Eletrico",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1036,7 +1036,7 @@
     },
     "visionSystems": {
         "name": "Sistemas de Visao",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1059,7 +1059,7 @@
     },
     "rfid": {
         "name": "RFID",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1082,7 +1082,7 @@
     },
     "bioReader": {
         "name": "Leitores Biometricos",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1105,7 +1105,7 @@
     },
     "generalEletronics": {
         "name": "Eletronica Digital, Analog, Potencia",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1128,7 +1128,7 @@
     },
     "arduino": {
         "name": "Arduino, ESP32, NodeMCU",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1151,7 +1151,7 @@
     },
     "peip": {
         "name": "PEIP",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1174,7 +1174,7 @@
     },
     "agile": {
         "name": "Agile (Scrum/Kanban)",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1197,7 +1197,7 @@
     },
     "epic": {
         "name": "EPIC",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1220,7 +1220,7 @@
     },
     "folders": {
         "name": "Estrutura de Pastas",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1243,7 +1243,7 @@
     },
     "office": {
         "name": "Office 365",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1266,7 +1266,7 @@
     },
     "jira": {
         "name": "JIRA",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1289,7 +1289,7 @@
     },
     "tfp": {
         "name": "TFP",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1312,7 +1312,7 @@
     },
     "pride": {
         "name": "Pride",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1335,7 +1335,7 @@
     },
     "nf": {
         "name": "Nota Fiscal",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1358,7 +1358,7 @@
     },
     "powerApps": {
         "name": "Power Apps",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1381,7 +1381,7 @@
     },
     "powerbi": {
         "name": "Power BI",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1404,7 +1404,7 @@
     },
     "mona": {
         "name": "Mona LTS",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1427,7 +1427,7 @@
     },
     "les": {
         "name": "LES",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1450,7 +1450,7 @@
     },
     "takt": {
         "name": "TAKT / TTS",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1473,7 +1473,7 @@
     },
     "neogrid": {
         "name": "Neogrid",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1496,7 +1496,7 @@
     },
     "visa": {
         "name": "Visa Web",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1519,7 +1519,7 @@
     },
     "coin": {
         "name": "COIN",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1542,7 +1542,7 @@
     },
     "maximo": {
         "name": "MAXIMO",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1565,7 +1565,7 @@
     },
     "insight": {
         "name": "IN-SIGHT",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1588,7 +1588,7 @@
     },
     "cvx": {
         "name": "CVX Series",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1611,7 +1611,7 @@
     },
     "3dxml": {
         "name": "3DXML Player",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1634,7 +1634,7 @@
     },
     "3dxp": {
         "name": "3D Experience",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1657,7 +1657,7 @@
     },
     "keyence": {
         "name": "Keyence Nav",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1680,7 +1680,7 @@
     },
     "vs": {
         "name": "Visual Studio / Visual Studio Code",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1703,7 +1703,7 @@
     },
     "catia": {
         "name": "Catia",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1725,8 +1725,8 @@
         ]
     },
     "autocad": {
-        "name": "Auto CadAuto Cad",
-        "weight": 0,
+        "name": "Auto Cad",
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1749,7 +1749,7 @@
     },
     "eplan": {
         "name": "E-Plan",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1772,7 +1772,7 @@
     },
     "wincc": {
         "name": "WinCC",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1795,7 +1795,7 @@
     },
     "ignition": {
         "name": "Ignition",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1818,7 +1818,7 @@
     },
     "tia": {
         "name": "TIA Portal",
-        "weight": 0,
+        "weight": 3,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1841,7 +1841,7 @@
     },
     "sbc": {
         "name": "Single Board Computers",
-        "weight": 0,
+        "weight": 2,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1864,7 +1864,7 @@
     },
     "mqtt": {
         "name": "MQTT",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1887,7 +1887,7 @@
     },
     "nosql": {
         "name": "NoSQL",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1910,7 +1910,7 @@
     },
     "cobot": {
         "name": "Cobot",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1933,7 +1933,7 @@
     },
     "ml": {
         "name": "Machine Learning",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
@@ -1956,7 +1956,7 @@
     },
     "opencv": {
         "name": "Open CV",
-        "weight": 0,
+        "weight": 1,
         "description": "",
         "usedFor": [],
         "levels": {
