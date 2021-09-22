@@ -69,8 +69,10 @@ function renderLevels(selected) {
 
     for (const [key, level] of Object.entries(selected.levels)) {
         html = ''        
+        i = 1;
         level.forEach(l => {
-           html += `<div class='skill-level-item'>* ${l}</div>`
+           html += `<div class='skill-level-item skill-level-${i}'>* ${l}</div>`
+           i++;
         });
         document.getElementById('level-' + key).insertAdjacentHTML('beforeend', html)
     }

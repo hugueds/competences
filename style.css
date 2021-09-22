@@ -33,7 +33,9 @@
     flex-direction: column;
     margin: 0px 0px 0px 0px;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+    color: goldenrod;
     /* border: 1px solid white; */
 }
 
@@ -46,6 +48,8 @@
     flex-direction: column;
     margin: 2% 1% 2% 1%;
     margin-left: 15%;
+    color: #fae389;
+    margin-bottom: 10%;
     /* border: 1px solid white; */
 }
 
@@ -66,13 +70,17 @@
 }
 
 .skill-item {
+    margin-top: 5%;
     text-decoration: none;
     color: #FAFAFA;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .skill-item:hover {
     color: aquamarine;
 }
+
 
 #content-container {
     display: flex;
@@ -245,4 +253,23 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+
+/* #level-1 { 
+    background: red;
+}
+#level-2 { 
+    background: orange;
+}
+#level-3 { 
+    background: yellow;
+}
+#level-4 { 
+    background: var(--scania-green);
+}
+#level-5 { 
+    background: var(--scania-blue);
+}
+*/
+
+
 
