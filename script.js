@@ -3,11 +3,7 @@ let data = {};
 let selectedTab = 0;
 let menu = {};
 
-// TODO: change the tab color when selected
-// TODO: remove URL style
 // TODO: faltou ftp no arquivo da matriz
-// TODO: implement a search field
-// TODO: hover hand over nav div
 
 window.onload = async function(e) {
 
@@ -27,13 +23,10 @@ window.onload = async function(e) {
     document.getElementById('skill-name').textContent = selected.name;
     document.getElementById('skill-weight').textContent = selected.weight;
     document.getElementById('skill-weight').classList.add('weight-level-' + selected.weight);
-    // TODO: change the color based on the weight
     document.getElementById('skill-description').textContent = selected.description;
 
     changeTab(2);
     renderLevels(selected);
-
-    // para cada usedfor criar uma linha
     
 }
 
