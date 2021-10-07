@@ -1,0 +1,486 @@
+{
+    "plc": {
+        "name": "PLC",
+        "subgroups": {
+            "redesIndustriais": {
+                "name": "Redes Industriais",
+                "skills": [
+                    {
+                        "key": "ethernet",
+                        "name": "Ethernet"
+                    },
+                    {
+                        "key": "profinet",
+                        "name": "Profinet"
+                    },
+                    {
+                        "key": "opcua",
+                        "name": "OPC UA"
+                    },
+                    {
+                        "key": "modbus",
+                        "name": "Modbus"
+                    },
+                    {
+                        "key": "iolink",
+                        "name": "IO Link"
+                    },
+                    {
+                        "key": "openProtocol",
+                        "name": "Open Protocol"
+                    },
+                    {
+                        "key": "rs232",
+                        "name": "RS 232"
+                    },
+                    {
+                        "key": "switch",
+                        "name": "Switch"
+                    },
+                    {
+                        "key": "router",
+                        "name": "Router e AP"
+                    },
+                    {
+                        "key": "arquiteture",
+                        "name": "Arquitetura"
+                    }
+                ]
+            },
+            "tiaPortal": {
+                "name": "Tia Portal Programacao",
+                "skills": [
+                    {
+                        "key": "stl",
+                        "name": "STL"
+                    },
+                    {
+                        "key": "graph7",
+                        "name": "Graph7"
+                    },
+                    {
+                        "key": "fbd",
+                        "name": "FBD"
+                    },
+                    {
+                        "key": "ladder",
+                        "name": "Ladder"
+                    },
+                    {
+                        "key": "scl",
+                        "name": "SCL"
+                    },
+                    {
+                        "key": "s7Connection",
+                        "name": "S7 Connection / BSEND BRCV"
+                    },
+                    {
+                        "key": "config",
+                        "name": "HW Configuration"
+                    }
+                ]
+            },
+            "db": {
+                "name": "DB",
+                "skills": [
+                    {
+                        "key": "sql",
+                        "name": "SQL"
+                    }
+                ]
+            }
+        }
+    },
+    "supervisorio": {
+        "name": "Supervisorio",
+        "subgroups": {
+            "scada": {
+                "name": "SCADA",
+                "skills": [
+                    {
+                        "key": "components",
+                        "name": "Design Components"
+                    },
+                    {
+                        "key": "tagManager",
+                        "name": "Tag Manager"
+                    },
+                    {
+                        "key": "scripts",
+                        "name": "Scripts (VB Script, C, Python)"
+                    },
+                    {
+                        "key": "design",
+                        "name": "Design Best Practices"
+                    },
+                    {
+                        "key": "userControl",
+                        "name": "User Access Control"
+                    },
+                    {
+                        "key": "webNavigator",
+                        "name": "Web Navigator / Perspective"
+                    }
+                ]
+            }
+        }
+    },
+    "webDevelopment": {
+        "name": "Desenvolvimento Web",
+        "subgroups": {
+            "protocols": {
+                "name": "Redes",
+                "skills": [
+                    {
+                        "key": "http",
+                        "name": "HTTP/HTTPS"
+                    },
+                    {
+                        "key": "soap",
+                        "name": "SOAP"
+                    },
+                    {
+                        "key": "rest",
+                        "name": "REST"
+                    },
+                    {
+                        "key": "jsonXML",
+                        "name": "JSON / XML"
+                    }
+                ]
+            },
+            "programmingLanguages": {
+                "name": "Linguagens de Programacao",
+                "skills": [
+                    {
+                        "key": "javascript",
+                        "name": "Javascript"
+                    },
+                    {
+                        "key": "python",
+                        "name": "Python"
+                    },
+                    {
+                        "key": "cSharp",
+                        "name": "C# / .Net"
+                    },
+                    {
+                        "key": "nodejs",
+                        "name": "NodeJS"
+                    }
+                ]
+            },
+            "frontEnd": {
+                "name": "Marcacao e Frameworks",
+                "skills": [
+                    {
+                        "key": "html",
+                        "name": "HTML"
+                    },
+                    {
+                        "key": "css",
+                        "name": "CSS"
+                    },
+                    {
+                        "key": "bootstrap",
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "key": "angular",
+                        "name": "Angular"
+                    },
+                    {
+                        "key": "flask",
+                        "name": "Flask"
+                    }
+                ]
+            },
+            "versioning": {
+                "name": "Versionamento",
+                "skills": [
+                    {
+                        "key": "gitTFS",
+                        "name": "GIT / TFS / Version Dog"
+                    }
+                ]
+            }
+        }
+    },
+    "prototyping": {
+        "name": "Construcao e Prototipagem",
+        "subgroups": {
+            "panels": {
+                "name": "Paineis Eletricos",
+                "skills": [
+                    {
+                        "key": "components",
+                        "name": "Componentes de Painel"
+                    },
+                    {
+                        "key": "qrCode",
+                        "name": "QRCode / Data Matrix"
+                    },
+                    {
+                        "key": "ioWireless",
+                        "name": "IO Wireless / Botao sem fio"
+                    },
+                    {
+                        "key": "eletricProjects",
+                        "name": "Projetos Eletricos"
+                    }
+                ]
+            },
+            "mechanicalProject": {
+                "name": "Projeto Mecanico",
+                "skills": [
+                    {
+                        "key": "techDrawing",
+                        "name": "Desenho Tecnico"
+                    }
+                ]
+            },
+            "commands": {
+                "name": "Sistema de Controle",
+                "skills": [
+                    {
+                        "key": "pneumaticHid",
+                        "name": "Pneumatico / Hidraulico"
+                    },
+                    {
+                        "key": "electric",
+                        "name": "Eletrico"
+                    }
+                ]
+            },
+            "dataCollection": {
+                "name": "Coleta de Dados",
+                "skills": [
+                    {
+                        "key": "visionSystems",
+                        "name": "Sistemas de Visao"
+                    },
+                    {
+                        "key": "rfid",
+                        "name": "RFID"
+                    },
+                    {
+                        "key": "bioReader",
+                        "name": "Leitores Biometricos"
+                    }
+                ]
+            },
+            "electronicProject": {
+                "name": "Projeto Eletronico",
+                "skills": [
+                    {
+                        "key": "generalEletronics",
+                        "name": "Eletronica Geral"
+                    },
+                    {
+                        "key": "arduino",
+                        "name": "Arduino, ESP32, NodeMCU"
+                    }
+                ]
+            }
+        }
+    },
+    "projectManagement": {
+        "name": "Gestao de Projetos",
+        "subgroups": {
+            "methods": {
+                "name": "Metodos",
+                "skills": [
+                    {
+                        "key": "peip",
+                        "name": "PEIP"
+                    },
+                    {
+                        "key": "agile",
+                        "name": "Agile (Scrum/Kanban)"
+                    }
+                ]
+            },
+            "fup": {
+                "name": "FUP",
+                "skills": [
+                    {
+                        "key": "epic",
+                        "name": "EPIC"
+                    },
+                    {
+                        "key": "folders",
+                        "name": "Estrutura de Pastas"
+                    },
+                    {
+                        "key": "office",
+                        "name": "Office 365"
+                    }
+                ]
+            },
+            "supportTools": {
+                "name": "Ferramentas de Suporte",
+                "skills": [
+                    {
+                        "key": "jira",
+                        "name": "Jira"
+                    },
+                    {
+                        "key": "tfp",
+                        "name": "TFP"
+                    },
+                    {
+                        "key": "pride",
+                        "name": "Pride (rota 2030)"
+                    },
+                    {
+                        "key": "nf",
+                        "name": "Gerar NF"
+                    },
+                    {
+                        "key": "powerApps",
+                        "name": "Power Apps"
+                    },
+                    {
+                        "key": "powerbi",
+                        "name": "Power BI"
+                    }
+                ]
+            }
+        }
+    },
+    "softwares": {
+        "name": "Softwares",
+        "subgroups": {
+            "coorporate": {
+                "name": "Coorporativos",
+                "skills": [
+                    {
+                        "key": "mona",
+                        "name": "Mona (LTS)"
+                    },
+                    {
+                        "key": "les",
+                        "name": "LES / Web LES"
+                    },
+                    {
+                        "key": "takt",
+                        "name": "TAKT / TTS"
+                    },
+                    {
+                        "key": "neogrid",
+                        "name": "Neo Grid"
+                    },
+                    {
+                        "key": "visa",
+                        "name": "Visa"
+                    },
+                    {
+                        "key": "coin",
+                        "name": "Coin"
+                    },
+                    {
+                        "key": "maximo",
+                        "name": "Maximo"
+                    }
+                ]
+            },
+            "third": {
+                "name": "Terceiros",
+                "skills": [
+                    {
+                        "key": "insight",
+                        "name": "In-Sight"
+                    },
+                    {
+                        "key": "cvx",
+                        "name": "CV-X Series"
+                    },
+                    {
+                        "key": "3dxml",
+                        "name": "3dXML Player"
+                    },
+                    {
+                        "key": "3dxp",
+                        "name": "3D Experience"
+                    },
+                    {
+                        "key": "keyence",
+                        "name": "Keyence Nav / IV2"
+                    },
+                    {
+                        "key": "vs",
+                        "name": "Visual Studio / Visual Studio Code"
+                    },
+                    {
+                        "key": "catia",
+                        "name": "Catia"
+                    },
+                    {
+                        "key": "autocad",
+                        "name": "AutoCAD"
+                    },
+                    {
+                        "key": "eplan",
+                        "name": "E-Plan"
+                    },
+                    {
+                        "key": "wincc",
+                        "name": "WinCC"
+                    },
+                    {
+                        "key": "ignition",
+                        "name": "Ignition (Designer/Gateway)"
+                    },
+                    {
+                        "key": "tia",
+                        "name": "Tia Portal"
+                    }
+                ]
+            }
+        }
+    },
+    "inovation": {
+        "name": "Inovacao",
+        "subgroups": {
+            "cloud": {
+                "name": "Cloud & IoT",
+                "skills": [
+                    {
+                        "key": "sbc",
+                        "name": "SBC - Single Board Computer (Linux)"
+                    },
+                    {
+                        "key": "mqtt",
+                        "name": "MQTT"
+                    }
+                ]
+            },
+            "db": {
+                "name": "DB",
+                "skills": [
+                    {
+                        "key": "nosql",
+                        "name": "NoSQL"
+                    }
+                ]
+            },
+            "newTech": {
+                "name": "Novas Tecnologias",
+                "skills": [
+                    {
+                        "key": "cobot",
+                        "name": "Cobot"
+                    },
+                    {
+                        "key": "ml",
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "key": "opencv",
+                        "name": "OpenCV"
+                    }
+                ]
+            }
+        }
+    }
+}

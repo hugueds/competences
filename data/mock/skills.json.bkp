@@ -1,0 +1,1982 @@
+{
+    "ethernet": {
+        "name": "Ethernet",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "http://google.com",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "profinet": {
+        "name": "Profinet",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "opcua": {
+        "name": "OPC UA",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "modbus": {
+        "name": "Modbus",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "iolink": {
+        "name": "IO Link",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "openProtocol": {
+        "name": "Open Protocol",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rs232": {
+        "name": "RS 232",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "switch": {
+        "name": "Switch",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "router": {
+        "name": "Router and AP",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "arquiteture": {
+        "name": "Architecture",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "stl": {
+        "name": "STL",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "graph7": {
+        "name": "GRAPH 7",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "fbd": {
+        "name": "FBD",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ladder": {
+        "name": "Ladder",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "scl": {
+        "name": "SCL",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "s7Connection": {
+        "name": "S7 Connection",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "config": {
+        "name": "Configuration",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "sql": {
+        "name": "SQL",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "components": {
+        "name": "Componentes do Painel",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tagManager": {
+        "name": "Tag Manager",
+        "weight": 3,
+        "description": "Tag Manager",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "scripts": {
+        "name": "Scripts (VB / Python)",
+        "weight": 3,
+        "description": "Python",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "design": {
+        "name": "Desing de Telas",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "userControl": {
+        "name": "User Access / Control",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "webNavigator": {
+        "name": "Web Navigator / Perspective",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "http": {
+        "name": "HTTP / HTTPS",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "soap": {
+        "name": "SOAP",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rest": {
+        "name": "REST",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "jsonXML": {
+        "name": "JSON / XML",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "javascript": {
+        "name": "Javascript",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "python": {
+        "name": "Python",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cSharp": {
+        "name": "C# / .Net",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nodejs": {
+        "name": "Node JS",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "html": {
+        "name": "HTML",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "css": {
+        "name": "CSS",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "angular": {
+        "name": "Angular",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "flask": {
+        "name": "Flask",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "gitTFS": {
+        "name": "Git / TFS",
+        "weight": 2,
+        "description": "GIT / Team Foundation",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pcomponents": {
+        "name": "Componentes de Painel",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "qrCode": {
+        "name": "QR Code / DataMatrix",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ioWireless": {
+        "name": "IO Wireless / Botao sem fio",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "eletricProjects": {
+        "name": "Projetos Eletricos",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "techDrawing": {
+        "name": "Desenho Tecnico",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pneumaticHid": {
+        "name": "Pneumatico / Hidraulico",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "electric": {
+        "name": "Eletrico",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "visionSystems": {
+        "name": "Sistemas de Visao",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "rfid": {
+        "name": "RFID",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "bioReader": {
+        "name": "Leitores Biometricos",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "generalEletronics": {
+        "name": "Eletronica Digital, Analog, Potencia",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "arduino": {
+        "name": "Arduino, ESP32, NodeMCU",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "peip": {
+        "name": "PEIP",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "agile": {
+        "name": "Agile (Scrum/Kanban)",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "epic": {
+        "name": "EPIC",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "folders": {
+        "name": "Estrutura de Pastas",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "office": {
+        "name": "Office 365",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "jira": {
+        "name": "JIRA",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tfp": {
+        "name": "TFP",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "pride": {
+        "name": "Pride",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nf": {
+        "name": "Nota Fiscal",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "powerApps": {
+        "name": "Power Apps",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "powerbi": {
+        "name": "Power BI",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "mona": {
+        "name": "Mona LTS",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "les": {
+        "name": "LES",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "takt": {
+        "name": "TAKT / TTS",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "neogrid": {
+        "name": "Neogrid",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "visa": {
+        "name": "Visa Web",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "coin": {
+        "name": "COIN",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "maximo": {
+        "name": "MAXIMO",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "insight": {
+        "name": "IN-SIGHT",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cvx": {
+        "name": "CVX Series",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "3dxml": {
+        "name": "3DXML Player",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "3dxp": {
+        "name": "3D Experience",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "keyence": {
+        "name": "Keyence Nav",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "vs": {
+        "name": "Visual Studio / Visual Studio Code",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "catia": {
+        "name": "Catia",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "autocad": {
+        "name": "Auto Cad",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "eplan": {
+        "name": "E-Plan",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "wincc": {
+        "name": "WinCC",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ignition": {
+        "name": "Ignition",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "tia": {
+        "name": "TIA Portal",
+        "weight": 3,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "sbc": {
+        "name": "Single Board Computers",
+        "weight": 2,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "mqtt": {
+        "name": "MQTT",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "nosql": {
+        "name": "NoSQL",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "cobot": {
+        "name": "Cobot",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "ml": {
+        "name": "Machine Learning",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    },
+    "opencv": {
+        "name": "Open CV",
+        "weight": 1,
+        "description": "",
+        "usedFor": [],
+        "levels": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "links": [
+            {
+                "url": "",
+                "text": ""
+            },
+            {
+                "url": "",
+                "text": ""
+            }
+        ]
+    }
+}
+
+
