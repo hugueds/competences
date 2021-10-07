@@ -1,3 +1,6 @@
+const $ = (e) => document.querySelector(e);
+const $$ = (e) => document.querySelectorAll(e);
+
 let selectedSkill = {};
 let data = {};
 let selectedTab = 0;
@@ -7,7 +10,7 @@ let menu = {};
 
 window.onload = async function(e) {
 
-    await fetch('skills.json')
+    await fetch('./data/skills.json')
         .then(response => response.json())
         .then(x => Object.assign(data, x)) 
 
@@ -18,12 +21,13 @@ window.onload = async function(e) {
 
     const skill = search.get('skill');
 
-    const selected = data[skill]; // TODO: validate if object was found or not
+    // TODO: validate if object was found or first enter the page
+    const selected = data[skill]; 
 
-    document.getElementById('skill-name').textContent = selected.name;
-    document.getElementById('skill-weight').textContent = selected.weight;
-    document.getElementById('skill-weight').classList.add('weight-level-' + selected.weight);
-    document.getElementById('skill-description').textContent = selected.description;
+    $('#skill-name').textContent = selected.name;
+    $('#skill-weight').textContent = selected.weight;
+    $('#skill-weight').classList.add('weight-level-' + selected.weight);
+    $('#skill-description').textContent = selected.description;
 
     changeTab(2);
     renderLevels(selected);
@@ -32,14 +36,14 @@ window.onload = async function(e) {
 
 async function renderMenu() {
     
-    await fetch('menu.json')
+    await fetch('./data/menu.json')
         .then(response => response.json())
         .then(x => Object.assign(menu, x)) 
 
-    let mainMenu = document.querySelector('#menu-container')
+    let mainMenu = $('#menu-container');
     let html = '';
 
-    for (const [key, group] of Object.entries(menu)) {
+    for (const [key1, group] of Object.entries(menu)) {
 
         html += `<div class="menu-group"> <p>${group.name}</p></div>`;
         
@@ -82,8 +86,8 @@ function renderLevels(selected) {
 function changeTab(tab) {
 
     const selectedTab = 'tab-'+tab;
-    const nodeList = document.querySelectorAll('.tab-content');
-    const tabList = document.querySelectorAll('.tab-nav');
+    const nodeList = $$('.tab-content');
+    const tabList = $$('.tab-nav');
 
     tabList.forEach( navtab => {
         navtab.classList.remove('tab-selected');
